@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-   [Tooltip("Prefab de Enemigo a generar")] 
+    [Tooltip("Prefab de Enemigo a generar")] 
     public GameObject prefab;
 
     [Tooltip("Tiempo en el que se inicia y finaliza la oleada")]

@@ -62,10 +62,11 @@ public class PlayerShooting : MonoBehaviour
         bullet.SetActive(true);
 
         
+        if (fireEffect!=null)
+        {
+            fireEffect.Play();
+        }
         
-        
-        
-        fireEffect.Play();
 
 
         Instantiate(shootSound, transform.position, transform.rotation).GetComponent<AudioSource>().Play();

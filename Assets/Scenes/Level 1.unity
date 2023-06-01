@@ -1865,7 +1865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7722645066218591061, guid: b28e1e9c00b990943b8452af49a8d83a, type: 3}
   startTime: 0
-  endTime: 8
+  endTime: 1
   spawnRate: 0.5
 --- !u!4 &265957842
 Transform:
@@ -7670,7 +7670,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23252
+  m_Name: pb_Mesh22552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24753,7 +24753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7722645066218591061, guid: b28e1e9c00b990943b8452af49a8d83a, type: 3}
   startTime: 0
-  endTime: 8
+  endTime: 1
   spawnRate: 0.5
 --- !u!4 &1578642097
 Transform:

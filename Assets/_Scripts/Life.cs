@@ -12,7 +12,7 @@ public class Life : MonoBehaviour
     public float maximumLife = 100f;
 
 
-
+    // public LayerMask DamageableLayer; 
 
 
     public UnityEvent onDeath;
