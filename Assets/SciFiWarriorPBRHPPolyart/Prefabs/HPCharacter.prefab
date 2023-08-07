@@ -609,6 +609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7673487251499544598}
   - component: {fileID: 7673487251510747448}
+  - component: {fileID: 1218731286391939893}
   m_Layer: 0
   m_Name: AssaultRifle
   m_TagString: Untagged
@@ -739,6 +740,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -34.27955, y: -49.079704, z: 120.48372}
     m_Extent: {x: 95.48148, y: 94.6697, z: 10.629513}
   m_DirtyAABB: 0
+--- !u!114 &1218731286391939893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673487251499248694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3968437095d0d4b9d07ab96e6b4f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootRate: 1
+  shootingPoint: {fileID: 4991618897083060373}
+  fireEffect: {fileID: 0}
+  shootSound: {fileID: 8454586946425109689, guid: f4cacf74b77737e4fbf976909acba2e3, type: 3}
 --- !u!1 &7673487251499248696
 GameObject:
   m_ObjectHideFlags: 0
