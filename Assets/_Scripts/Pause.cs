@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
@@ -8,6 +9,9 @@ public class Pause : MonoBehaviour
 
     public GameObject pauseMenu;
     public Button exitButton;
+
+
+    public AudioMixerSnapshot pauseSnp, gameSnp;
 
 
 
@@ -28,6 +32,8 @@ public class Pause : MonoBehaviour
 
             pauseMenu.SetActive(true);
             Time.timeScale = 0;
+
+            pauseSnp.TransitionTo(0.1f);
         }
     }
 
@@ -38,6 +44,8 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        gameSnp.TransitionTo(0.1f);
     }
 
     private void ExitGame()

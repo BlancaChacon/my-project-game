@@ -168,8 +168,7 @@ MonoBehaviour:
   currentState: 0
   baseAttackDistance: 2.5
   playerAttackDistance: 3
-  shootRate: 1
-  shootingPoint: {fileID: 4905583045626261432}
+  weapon: {fileID: 1276812960688495640}
 --- !u!1 &8134757735234805010
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,11 +287,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7373035744366121883, guid: c98043d57e0190845b790d7b92990bee, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.57735026
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373035744366121883, guid: c98043d57e0190845b790d7b92990bee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.40824828
       objectReference: {fileID: 0}
     - target: {fileID: 7373035744366121883, guid: c98043d57e0190845b790d7b92990bee, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: -0.57735026
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373035744366121883, guid: c98043d57e0190845b790d7b92990bee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.40824828
       objectReference: {fileID: 0}
     - target: {fileID: 7373035744366121883, guid: c98043d57e0190845b790d7b92990bee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -655,11 +662,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7673487251499544664, guid: c98043d57e0190845b790d7b92990bee, type: 3}
   m_PrefabInstance: {fileID: 95115704385683245}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4905583045626261432 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4991618897083060373, guid: c98043d57e0190845b790d7b92990bee, type: 3}
+--- !u!114 &1276812960688495640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1218731286391939893, guid: c98043d57e0190845b790d7b92990bee, type: 3}
   m_PrefabInstance: {fileID: 95115704385683245}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3968437095d0d4b9d07ab96e6b4f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &160500751500074704
 Rigidbody:
   m_ObjectHideFlags: 0
